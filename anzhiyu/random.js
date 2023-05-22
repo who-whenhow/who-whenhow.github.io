@@ -1,0 +1,1 @@
+var posts=["2023/05/20/git课堂笔记/","2023/05/20/mysql课堂笔记/","2023/05/20/markdown语法介绍/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
